@@ -1,17 +1,17 @@
 @font-face {
     font-family: Meslo;
-    src: url("../public/fonts/meslo/MesloRegular.ttf");
+    src: url("../fonts/meslo/MesloRegular.ttf");
 }
 
 @font-face {
     font-family: Meslo;
-    src: url("../public/fonts/meslo/MesloBold.ttf");
+    src: url("../fonts/meslo/MesloBold.ttf");
     font-weight: 700;
 }
 
 @font-face {
     font-family: '3270';
-    src: url("../public/fonts/3270/3270MonoR.ttf");
+    src: url("../fonts/3270/3270MonoR.ttf");
 }
 
 :root {
