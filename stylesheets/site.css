@@ -26,10 +26,17 @@
     --moonlight-text-two: #96d3f5;
     --link-color: #607df5;
 
+    --sourcerer-text-one: #faf4c6;
+    --sourcerer-text-two: #dbd49d;
+    --sourcerer-bg: #171717;
+
     /* settings */
-    --body-background: var(--tn-background);
-    --text-color-one: var(--tn-text-one);
-    --text-color-two: var(--moonlight-text-two);
+    /* --body-background: var(--tn-background); */
+    /* --text-color-one: var(--tn-text-one); */
+    /* --text-color-two: var(--moonlight-text-two); */
+    --body-background: var(--sourcerer-bg);
+    --text-color-one: var(--sourcerer-text-one);
+    --text-color-two: var(--sourcerer-text-two);
     --main-font-family: Meslo;
 }
 
@@ -37,6 +44,12 @@ body {
     background-color: var(--body-background);
     color: var(--text-color-two);
     font-family: var(--main-font-family);
+}
+
+body.moonlight {
+    --body-background: var(--tn-background);
+    --text-color-one: var(--tn-text-one);
+    --text-color-two: var(--moonlight-text-two);
 }
 
 ::selection{
