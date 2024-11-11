@@ -299,3 +299,8 @@ article > .post-link{
 a {
     color: var(--link-color);
 }
+
+img {
+    width: fit-content;
+    max-width: 100%;
+}
